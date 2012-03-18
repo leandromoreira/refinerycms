@@ -25,6 +25,12 @@ pt-BR:
         hello_please_sign_in: "Olá! Faça o login"
         sign_in: Entrar
         forgot_password: Esqueci minha senha
+    user_mailer:
+      reset_notification:
+        subject: Link para reiniciar sua senha
+        reset_request_received_for: "Pedido para reiniciar a senha de %{username}"
+        visit_this_url: Visite esse endereço para mudar de senha
+        remain_same_if_no_action: Sua senha irá continuar a mesma, se nada for feito
     users:
       new:
         fill_form: Preencha o formulário abaixo com seus detalhes pra que você possa começar.
